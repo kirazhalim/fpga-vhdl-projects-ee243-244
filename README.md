@@ -19,7 +19,3 @@ ISE simulation folders, generated netlists, reports, logs, executables, bitstrea
 ## How to Use
 
 Open the relevant `.xise` project in Xilinx ISE, inspect the top-level module/schematic, regenerate simulation outputs if needed, and synthesize for the target board after checking constraints.
-
-## Notes
-
-The repository includes VHDL/Xilinx ISE source files and project files. Course prompts, generated simulation folders, bitstreams, build artifacts, logs, executables, and unrelated materials are not included.
