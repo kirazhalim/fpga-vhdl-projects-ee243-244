@@ -1,21 +1,22 @@
 # EE243/EE244 FPGA VHDL Projects
 
-This repository contains selected VHDL/Xilinx ISE digital design projects from coursework.
+This repository contains selected FPGA and digital design projects from my EE243/EE244 coursework. I worked on VHDL modules, Xilinx ISE projects, schematics, simulations, and basic hardware-oriented logic designs.
+
+The repository includes 3 main projects: a digital clock, a VGA scrolling text design, and a walking LED circuit.
 
 ## Projects
 
-- `digital-clock`: counters, seven-segment display logic, Gray/binary conversion, and digital clock schematics.
+- `digital-clock`: counters, seven-segment display logic, Gray code conversion, and clock-related schematics.
 - `vga-scrolling-text`: VGA timing and text generation modules.
-- `walking-led`: LED walking pattern and frequency divider logic.
+- `walking-led`: frequency divider logic and LED walking pattern design.
 
-## What Is Included
+## What I Did
 
-Only source-like files are included: `.vhd`, `.vhdl`, `.v`, `.sch`, `.ucf`, and `.xise`.
-
-## What Is Excluded
-
-ISE simulation folders, generated netlists, reports, logs, executables, bitstreams, and temporary build products are excluded.
+- Designed and tested VHDL modules for digital logic systems.
+- Used Xilinx ISE project files and schematic-based design files.
+- Added simulation files for different modules.
+- Organized the coursework projects into separate folders.
 
 ## How to Use
 
-Open the relevant `.xise` project in Xilinx ISE, inspect the top-level module/schematic, regenerate simulation outputs if needed, and synthesize for the target board after checking constraints.
+Open the related `.xise` project in Xilinx ISE, inspect the top module or schematic, and regenerate simulations if needed.
